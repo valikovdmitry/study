@@ -1,10 +1,20 @@
-# 2. На входе список из любых типов переменных. Задача удалиить из списка все с типом str
+# 1. выведи все функции из массива значение которых по модулю 5 < 2
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+lst2 = []
+for i in range(21, 41):
+    lst2.append(i)
 
 
-lst = [1, 0.5, 'sring', 2, 0.7, 'word', 7, 3.5, 'sea']
 
-print(lst)
+def find(s, y=5):
+    print('\n', s, sep='')
+    for value in s:
+        x = value % y
+        if x < 2:
+            print('\t', value, '- значение по модулю', y, ':', x)
 
-for value in lst:
-    if (isinstance(value, str)) == True:
-        print(value)
+find(lst)
+find(lst2)
+
+

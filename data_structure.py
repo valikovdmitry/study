@@ -1,5 +1,12 @@
 # data structure
 
+def findall(s, z=1):
+    result = []
+    for value in enumerate(s):
+        if value[1] == z:
+            result.append(value[0])
+    return (result)
+
 lst = [4, 1, 2, 7]
 lst.append(1)
 
@@ -113,7 +120,15 @@ print(result)
 
 
 
+print(findall(lst3, 4))
 
 
+lst7 = lst5 * 100
+print(lst7)
+
+
+
+print(min(lst5))
+print(max(lst5))
 
 

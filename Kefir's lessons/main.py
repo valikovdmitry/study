@@ -45,6 +45,6 @@ new_string = '5.6'
 #print(type(new_string))
 #print(type(r))
 
-#print(isinstance(u, float))
+print(isinstance(u, float))
 
-
+help(isinstance)

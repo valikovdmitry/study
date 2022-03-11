@@ -91,44 +91,45 @@ print(lst5)
 lst5[2] = lst5[4]
 print(lst5)
 
+print('\n \n \n', lst5)
 lst5.reverse()
 print(lst5)
 
-l = reversed(lst5)
+#l = reversed(lst5)
 #
 
 
 
-print(lst5)
-lst5.remove(90)
-lst5.remove(90)
+#print(lst5)
+#lst5.remove(90)
+#lst5.remove(90)
 
-lst5.extend([1, 1])
+#lst5.extend([1, 1])
 
-print(lst5)
+#print(lst5)
 
-print(list(enumerate(lst5)))
-print()
-
-
-result = []
-
-for value in enumerate(lst5):
-    if value[1] == 1:
-        result.append(value[0])
-print(result)
+#print(list(enumerate(lst5)))
+#print()
 
 
+#result = []
 
-print(findall(lst3, 4))
-
-
-lst7 = lst5 * 100
-print(lst7)
+#for value in enumerate(lst5):
+#    if value[1] == 1:
+#        result.append(value[0])
+#print(result)
 
 
 
-print(min(lst5))
-print(max(lst5))
+#print(findall(lst3, 4))
+
+
+#lst7 = lst5 * 100
+#print(lst7)
+
+
+
+#print(min(lst5))
+#print(max(lst5))
 
 

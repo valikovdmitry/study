@@ -13,7 +13,7 @@ f = f'Простой {b}'
 
 
 #print('который' in d)
-#print(d.find('который'))
+print(d.find('который'))
 #print(d.replace('который', 'каторый'))
 
 # приведение типов
@@ -47,4 +47,4 @@ new_string = '5.6'
 
 print(isinstance(u, float))
 
-help(isinstance)
+

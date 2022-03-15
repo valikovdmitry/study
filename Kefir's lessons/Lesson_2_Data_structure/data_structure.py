@@ -22,6 +22,8 @@ lst2.append(4)
 #print(lst2)
 
 
+#  pop по индексу + возврат, remove по значению без возрата
+
 #print(len(lst))
 #print(lst[0], lst2[-1])
 #print(lst[0:4])
@@ -44,28 +46,28 @@ def formula(x, y, w=0):
 #___________________________________
 
 
-
-
-print(lst.count(5))
-print(lst.pop())
-print(lst.pop(0))
-
-print(lst)
-z = lst.pop(0) * lst.pop(0) * lst.pop(-1)
-
-
-print()
-print(lst)
-print(z)
-
-
+#
+#
+# print(lst.count(5))
+# print(lst.pop())
+# print(lst.pop(0))
+#
+# print(lst)
+# z = lst.pop(0) * lst.pop(0) * lst.pop(-1)
+#
+#
+# print()
+# print(lst)
+# print(z)
+#
+#
 lst3 = [3, 4, 5, 7, 1, 90]
-
-lst3.sort()
-print(lst3)
-
-lst4 = lst3
-lst4.pop(0)
+#
+# lst3.sort()
+# print(lst3)
+#
+# lst4 = lst3
+# lst4.pop(0)
 
 print(lst3)
 
@@ -73,27 +75,27 @@ lst5 = lst3.copy()
 lst5.pop(0)
 
 print(lst3, lst5)
-
-lst2.extend(reversed(lst5))
-print(lst5)
-
-print(lst5.index(7))
+#
+# lst2.extend(reversed(lst5))
+# print(lst5)
+#
+# print(lst5.index(7))
 
 #lst5.pop(lst5.index(7))
-print(lst5)
+# print(lst5)
 
 #print(lst5.index(99, 0, 5))
-print(5 in lst5)
+# print(5 in lst5)
 
-lst5.insert(0, 5)
-print(lst5)
-
-lst5[2] = lst5[4]
-print(lst5)
-
-print('\n \n \n', lst5)
-lst5.reverse()
-print(lst5)
+# lst5.insert(0, 5)
+# print(lst5)
+#
+# lst5[2] = lst5[4]
+# print(lst5)
+#
+# print('\n \n \n', lst5)
+# lst5.reverse()
+# print(lst5)
 
 #l = reversed(lst5)
 #

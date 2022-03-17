@@ -8,8 +8,10 @@ def isPalindrome(x=1):
     e = str((a[0:k]))
     r = str((a[-k:]))
     n = list(r)
+
     n.reverse()
     n2 = "".join(n)
+
 
 #    print('\t Первая половина числа', e)
 #    print('\t Развернутая вторая половина числа', n2)
@@ -23,4 +25,4 @@ def isPalindrome(x=1):
 #        print('\n', False)
         print('Число', a, 'не палиндром.')
 
-isPalindrome()
+# isPalindrome()

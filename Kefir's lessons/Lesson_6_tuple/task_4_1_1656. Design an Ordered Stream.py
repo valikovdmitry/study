@@ -1,6 +1,6 @@
 # Input
 s = ["OrderedStream", "insert", "insert", "insert", "insert", "insert"]
-e = {5: None, 3: "ccccc", 1; "aaaaa", 2: "bbbbb", 5: "eeeee", 4: "ddddd"]}
+e = {3: "ccccc", 1: "aaaaa", 2: "bbbbb", 5: "eeeee", 4: "ddddd"}
 # Output
 t = ['null', [], ["aaaaa"], ["bbbbb", "ccccc"], [], ["ddddd", "eeeee"]]
 
@@ -27,13 +27,3 @@ print(d)
 # Если приходит число с индексом меньше ожидаемого, выводим пустоту, а значение переносим в индекс меньше на 1
 # А когда все таки получаем ожидаемый индекс, то выводим его значения и его побочные добавленые значения
 #
-
-
-
-
-
-
-
-
-
-

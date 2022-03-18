@@ -1,4 +1,4 @@
-e = {5: None, 3: 'ccccc', 1: 'aaaaa', 2: 'bbbbb', 5: 'eeeee', 4: 'ddddd'}
+e = {3: 'ccccc', 1: 'aaaaa', 2: 'bbbbb', 5: 'eeeee', 4: 'ddddd'}
 m = max(e) + 1
 f = {}
 b = dict()
@@ -22,6 +22,3 @@ while expected_key < m:
 
 print('Buffer:', b)
 print(' Final:', f)
-
-
-

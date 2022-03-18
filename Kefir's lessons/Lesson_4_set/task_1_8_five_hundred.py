@@ -8,9 +8,7 @@ end = random.randint(0, len(l2))
 lst = l2[0: end]
 
 # print('Полный перемешанный список: ', l2)
-print('          Вырезанный кусок: ',lst)
-
-
+print('          Вырезанный кусок: ', lst)
 
 l = sorted(lst)
 l3 = [-1]
@@ -21,10 +19,6 @@ for value in l3:
     if value == -1:
         l3.remove(value)
 
-
-
-
-
 print('          После сортировки: ', l)
 print('       Уникальные значения: ', l3)
 print('     Количество на страрте: ', len(l2))
@@ -33,8 +27,10 @@ print('         Из них уникальны : ', len(l3))
 print('От: ', start)
 print('До: ', end)
 
-all_list = range(0,1000)
+all_list = range(0, 1000)
 all = set(all_list)
 s = set(l3)
 print('Нет: ', len(l1) - len(s), 'штук.')
 # print('Это: \n', all.difference(s), sep='')
+
+

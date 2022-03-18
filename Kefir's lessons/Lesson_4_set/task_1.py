@@ -18,7 +18,7 @@ lst = l2[min(start, end): max(start, end)]
 a = []
 
 for value in lst:
-    if value != a[0: len(a) - 1]
+    if value != a[0: len(a) - 1]:
         a.append(value)
 
 

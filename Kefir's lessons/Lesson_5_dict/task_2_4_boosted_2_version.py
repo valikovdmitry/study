@@ -17,23 +17,24 @@ def func(x):
 
 def func2(input):
     input_sorted = sorted(input) # сортируем входящие данные
-
     count = 0 # инициализируем счетчик
     result = dict() # инициализируем словарь со счетчиком для каждого входящего числа
     prev = input_sorted[0] # предыдущий элемент
     print(input_sorted)
 
     for index, value in enumerate(input_sorted): # получаем из сортированного списка индекс и значение
+        print('value', value)
+        print('prev', prev)
         if prev != value: # сравниваем, чтобы понять пришло ли новое значение
             result[prev] = count # если пришло, значит старое число создает ключ имени себя в результате
             count = index # обновляем каунт
             prev = value # prev = inpur_sorted[1]
+        print(result)
+        print('-- count', count)
     result[prev] = count
 
-    return [result.get(value, 0) for value in input]
+    print([result.get(value, 0) for value in input])
 
 
-print(func2(nums))
-
-# n * log(n)
+func2(nums)
 

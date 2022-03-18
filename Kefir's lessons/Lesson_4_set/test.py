@@ -7,6 +7,6 @@ print(s2)
 
 def fun(x):
     a = str(x)
-    b = 'a[:-3], '.', a[-3:], sep='''
+    b = 'a[:-3], , a[-3:], sep='''
 
 fun(s)

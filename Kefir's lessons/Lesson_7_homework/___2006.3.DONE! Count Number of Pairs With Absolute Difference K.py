@@ -5,7 +5,7 @@ nums3 = [1,2,2,1]; k3 = 1
 #                                                                                       1 <= nums[i] <= 100
 
 def count_k_pairs(lst, minus_value):
-    sort = sorted(lst)                                 # тут проход максимум на 200   //   сортируем
+    sort = sorted(lst)                                 # тут проход максимум на 200 (460)   //   сортируем
     d = dict()
     count = 0
 
@@ -21,7 +21,7 @@ def count_k_pairs(lst, minus_value):
         if ans in d:
             count += value * d[ans]
 
-    return count                                       # в сумме 600 проходов максимум
+    return count                                       # в сумме 600 проходов максимум (860)
 
 
 

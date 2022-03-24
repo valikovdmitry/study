@@ -16,4 +16,9 @@ print(counter(jewels))
 print(counter(jewels2))
 
 
+# filter - оставить только значение удовлетворяющие условию
+lst2 = [1,2,3,4,5,6]
+
+lst5 = list(filter())
+print(lst5)
 

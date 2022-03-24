@@ -18,6 +18,9 @@ print(result)
 result2 = [a[index] for index in range(len(a) - 1, -1, -1)]
 print(result2)
 
+rev = a[::-1]
+print(rev)
+
 
 
 

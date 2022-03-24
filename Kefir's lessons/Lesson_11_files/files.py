@@ -4,8 +4,8 @@
 # виз - создает контекст для того чтобы происходит внутри
 
 
-# f = open('/Users/dmitryvalikov/Documents/5. Python/study/Kefir\'s lessons/Lesson_10_files/files.py', 'r')
-f = open('/Users/dmitryvalikov/Documents/5. Python/study/Kefir\'s lessons/Lesson_10_files/files.py', 'rb')
+# f = open('/Users/dmitryvalikov/Documents/5. Python/study/Kefir\'s lessons/Lesson_11_files/files.py', 'r')
+f = open('/Kefir', 'rb')
 
 # f.close() # закрыть файл
 
@@ -37,7 +37,7 @@ f = open('/Users/dmitryvalikov/Documents/5. Python/study/Kefir\'s lessons/Lesson
 # b'array' - строка из битов
 
 # это и есть контекст. делаем внутри что-то, а как только вышли - закрыли  за собой
-# with open('/Users/dmitryvalikov/Documents/5. Python/study/Kefir\'s lessons/Lesson_10_files/files.py', 'r') as f:
+# with open('/Users/dmitryvalikov/Documents/5. Python/study/Kefir\'s lessons/Lesson_11_files/files.py', 'r') as f:
 #     print(f.read())
 
 # 'w' перезапись

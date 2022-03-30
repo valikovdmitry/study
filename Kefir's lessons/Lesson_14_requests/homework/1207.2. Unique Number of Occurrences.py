@@ -6,10 +6,6 @@ def f(arr):
     for value in arr:
         d[value] = d.get(value, 0) + 1
 
-    res = []
-    for v in d.values():
-        res.append(v)
-
-    return len(res) == len(set(res))
+    return len(set(d.values())) == len(d)
 
 print(f(arr))

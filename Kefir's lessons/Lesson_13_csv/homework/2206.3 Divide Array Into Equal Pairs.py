@@ -1,10 +1,11 @@
+from collections import Counter
+
+
 lst = [3,2,3,2,2,2]
 
 
 def divideArray(nums):
-    d = dict()
-    for value in nums:
-        d[value] = d.get(value, 0) + 1
+    d = Counter(nums)
     print(d)
 
     for value in d.values():
